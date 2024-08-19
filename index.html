@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Header Section Start-->
+  <header class="header-container">
+    <nav>
+      <ul>
+        <li class="menu-item"><a href="#home">Homepage</a></li>
+        <li class="menu-item"><a href="#contact">Contact</a></li>
+        <li class="menu-item"><a href="#about">About</a></li>
+        <li class="menu-item"><a href="#blog">Blog</a></li>
+        <li class="menu-item"><a href="#product">Product</a></li>
+        <li class="menu-item">
+          <button>
+            <span>Login</span>
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </button>
+        </li>
+        <li class="menu-item">
+          <button>
+            <span>Logout</span>
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header> <!--Header Section End-->
+
+  <!--Main Section Start-->
+  <main>
+    <!--Banner Section Start-->
+    <section id="home" class="banner-cotainer">
+      <img src="asset/banner-img-removebg-preview.png" alt="">
+    </section><!--Banner Section End-->
+
+    <!--Product Section Start-->
+    <section id="product">
+
+      <h1 style="text-align: center; margin: 20px 0; font-weight: 500; font-size: 32px;color: #1E2738;">
+        <span style="border-bottom: 2px solid #1E2738; font-weight: bold;">
+          Our Products
+        </span>
+      </h1>
+
+
+      <div class="card-container">
+        <!--Single Card Start-->
+        <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/sofa-removebg-preview.png" alt="">
+          <h3 style="padding: 8px;">Gulistaner Sofa</h3>
+          <h4 style="padding: 4px;">Price 100$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/sofa-removebg-preview.png" alt="">
+          <h3 style="padding: 8px;">Gulistaner Sofa</h3>
+          <h4 style="padding: 4px;">Price 100$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/sofa-removebg-preview.png" alt="">
+          <h3 style="padding: 8px;">Gulistaner Sofa</h3>
+          <h4 style="padding: 4px;">Price 100$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/sofa-removebg-preview.png" alt="">
+          <h3 style="padding: 8px;">Gulistaner Sofa</h3>
+          <h4 style="padding: 4px;">Price 100$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          </div>
+          
+          </section><!--Product Section End-->
+          
+          <!--About Us Section Start-->
+          <section id="about">
+          
+            <h1 style="text-align: center; margin: 20px 0; font-weight: 500; font-size: 32px;color: #1E2738;">
+              <span style="border-bottom: 2px solid #1E2738; font-weight: bold; padding: 0 16px;">
+                About Us
+              </span>
+            </h1>
+          
+          
+            <div class="contactus-container">
+          
+          
+              <!--About Us-->
+              <div>
+                <p style="text-align: center; margin: 0 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere
+                  accusantium
+                  soluta quasi officia itaque
+                  ab cumque nemo dolorum. Quod deserunt aliquam quisquam. Ipsam animi iure consequuntur sit, harum voluptate
+                  </p>
+              </div>
+          
+            </div>
+          </section><!--About Us Section End-->
+          
+          
+          <!--Contact Us Section Start-->
+          <section id="contact">
+          
+            <h1 style="text-align: center; margin: 20px 0; font-weight: 500; font-size: 32px;color: #1E2738;">
+              <span style="border-bottom: 2px solid #1E2738; font-weight: bold;">
+                Contact Us
+              </span>
+            </h1>
+            <div class="contactus-container">
+              <!--Contact Us Image-->
+              <div>
+                <img src="asset/contactus-removebg-preview.png" alt="">
+              </div>
+          
+              <!--Contact Us Form-->
+              <div style="margin-top: 36px;">
+                <form class="form-container">
+                  <label for="fulName">Full Name</label>
+                  <input type="text" id="fulName">
+                  <label for="address">Address</label>
+                  <input type="text" id="address">
+                  <label for="email">Email</label>
+                  <input type="email" id="email">
+                  <label for="phone">Phone Number</label>
+                  <input type="number" id="phone">
+                  <label for="comment">Comment</label>
+                  <textarea id="comment" rows="6" cols="40"></textarea>
+                </form>
+              </div>
+            </div>
+    </section><!--Contact Us Section End-->
+    <section class="blog-container">
+      <h1 class="blog-header">
+        <span style="border-bottom: 2px solid rgb(85, 28, 139);">All Blog Contents Here</span>
+      </h1>
+    
+      <div class="allBlogs">
+        <div class="blog">
+          <img src="asset/blog-1.jpg" alt="">
+          <h2
+            style="text-transform: uppercase; color: rgb(101, 33, 164) ; font-weight: 600; padding:  0 16px; margin-top: 16px; ">
+            What does an
+            abandoned
+            foundry have to do
+            with mission?</h2>
+          <h3 style="font-size: 16px ; color: goldenrod; padding: 4px 16px;">May 24, 2025</h3>
+          <p style="padding: 16px; font-weight: 400; font-size: 16px; line-height: 24px;">
+            Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem recusandae
+            a delectus ut repellat
+            doloremque, quod nesciunt! Asperiores reiciendis consectetur illo tenetur accusantium pariatur....
+          </p>
+    
+    
+    
+          <button style="margin: 4px 16px;">Read More</button>
+    
+        </div>
+        <div class="blog">
+          <img src="asset/blog-1.jpg" alt="">
+          <h2
+            style="text-transform: uppercase; color: rgb(101, 33, 164) ; font-weight: 600; padding:  0 16px; margin-top: 16px; ">
+            What does an
+            abandoned
+            foundry have to do
+            with mission?</h2>
+          <h3 style="font-size: 16px ; color: goldenrod; padding: 4px 16px;">May 24, 2025</h3>
+          <p style="padding: 16px; font-weight: 400; font-size: 16px; line-height: 24px;">
+            Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem recusandae
+            a delectus ut repellat
+            doloremque, quod nesciunt! Asperiores reiciendis consectetur illo tenetur accusantium pariatur....
+          </p>
+    
+    
+    
+          <button style="margin: 4px 16px;">Read More</button>
+    
+        </div>
+        <div class="blog">
+          <img src="asset/blog-1.jpg" alt="">
+          <h2
+            style="text-transform: uppercase; color: rgb(101, 33, 164) ; font-weight: 600; padding:  0 16px; margin-top: 16px; ">
+            What does an
+            abandoned
+            foundry have to do
+            with mission?</h2>
+          <h3 style="font-size: 16px ; color: goldenrod; padding: 4px 16px;">May 24, 2025</h3>
+          <p style="padding: 16px; font-weight: 400; font-size: 16px; line-height: 24px;">
+            Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem recusandae
+            a delectus ut repellat
+            doloremque, quod nesciunt! Asperiores reiciendis consectetur illo tenetur accusantium pariatur....
+          </p>
+    
+    
+    
+          <button style="margin: 4px 16px;">Read More</button>
+    
+        </div>
+        <div class="blog">
+          <img src="asset/blog-1.jpg" alt="">
+          <h2
+            style="text-transform: uppercase; color: rgb(101, 33, 164) ; font-weight: 600; padding:  0 16px; margin-top: 16px; ">
+            What does an
+            abandoned
+            foundry have to do
+            with mission?</h2>
+          <h3 style="font-size: 16px ; color: goldenrod; padding: 4px 16px;">May 24, 2025</h3>
+          <p style="padding: 16px; font-weight: 400; font-size: 16px; line-height: 24px;">
+            Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem recusandae
+            a delectus ut repellat
+            doloremque, quod nesciunt! Asperiores reiciendis consectetur illo tenetur accusantium pariatur....
+          </p>
+    
+    
+    
+          <button style="margin: 4px 16px;">Read More</button>
+    
+        </div>
+        <div class="blog">
+          <img src="asset/blog-1.jpg" alt="">
+          <h2
+            style="text-transform: uppercase; color: rgb(101, 33, 164) ; font-weight: 600; padding:  0 16px; margin-top: 16px; ">
+            What does an
+            abandoned
+            foundry have to do
+            with mission?</h2>
+          <h3 style="font-size: 16px ; color: goldenrod; padding: 4px 16px;">May 24, 2025</h3>
+          <p style="padding: 16px; font-weight: 400; font-size: 16px; line-height: 24px;">
+            Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem recusandae
+            a delectus ut repellat
+            doloremque, quod nesciunt! Asperiores reiciendis consectetur illo tenetur accusantium pariatur....
+          </p>
+    
+    
+    
+          <button style="margin: 4px 16px;">Read More</button>
+    
+        </div>
+      </div>
+    
+    </section>
+
+
+  </main><!--Main Section End-->
+
+  <footer>
+    
+  </footer>
+</body>
+
+</html>

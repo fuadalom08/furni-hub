@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-container {
+  background-color: #1e2738;
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+button {
+  background-color: #ffaf00;
+  border: 0;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.banner-cotainer {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+}
+
+.furniture-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  margin: 16px ;
+  border-radius: 8px;
+}
+
+.contactus-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+label {
+  display: block;
+  margin-left: 12px;
+}
+
+input,
+textarea {
+  width: 260px;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #1e2738;
+  border-radius: 8px;
+}
+
+.blog-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+.allBlogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blog {
+  background-image: url('');
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin: 32px 16px;
+}
+
+.blog-header{
+  text-align: center; 
+  font-weight: 800; 
+  font-size: 48px; 
+  text-transform: uppercase; 
+}
+
+/* Media Queries Here */
+
+@media screen and (max-width: 430px) {
+  ul {
+    display: block;
+  }
+  li {
+    margin: 12px 0;
+  }
+  .card-container {
+    display: block;
+
+    padding: 16px;
+  }
+  .contactus-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  .allBlogs {
+  display: grid;
+  grid-template-columns: repeat( 1, 1fr);
+
+}
+.blog-header{
+  font-size: 24px; 
+}
+
+.furniture-card {
+
+  margin: 16px 0 ;
+
+}
+
+.form-container{
+  text-align: center;
+}
+
+}
